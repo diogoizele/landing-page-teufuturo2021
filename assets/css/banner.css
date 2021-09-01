@@ -1,0 +1,61 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+.banner {
+  position: relative;
+}
+
+.box-1 {
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.banner-title {
+  color: rgb(255, 255, 255);
+  font-family: "Pacifico", cursive;
+  font-size: 5.5rem;
+  position: absolute;
+  top: 45%;
+  text-shadow: 0 4px 4px #000000;
+  text-align: center;
+  transform: translate((-50%, -50%));
+  width: 100%;
+}
+
+.box-1 {
+  background-image: url();
+  background-color: #6C40C9;
+}
+
+
+.banner-icon {
+  position: absolute;
+  transition: 5s;
+  opacity: 0.7;
+}
+
+.fruits {
+  top: 40%;
+  left: 10rem;
+}
+
+.salad {
+  right: 10rem;
+  top: 50%;
+}
+
+.mobile {
+  display: none;
+}

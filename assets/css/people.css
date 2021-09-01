@@ -1,0 +1,36 @@
+.people {
+  padding: 8rem 3rem 3rem 3rem;
+  text-align: center;
+}
+
+.people-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.people-item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.people-image {
+  border-radius: 100%;
+  transform: rotate(0, 0, 0, 0deg);
+}
+
+.people-name {
+  margin-top: 0.5rem;
+  color: #a02222;
+  font-size: 1.5rem;
+  font-family: "Pacifico", cursive;
+}
+
+.people-description {
+  color: #555;
+  font-weight: 300;
+  font-size: 1.1rem;
+}

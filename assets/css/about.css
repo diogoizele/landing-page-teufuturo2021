@@ -1,0 +1,23 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+.about {
+  padding: 7.5rem 2.5rem 2rem 2.5rem;
+  text-align: center;
+}
+
+.about-title {
+  color: #a02222;
+  font-family: "Pacifico", cursive;
+  font-size: 2.8rem;
+}
+
+.about-description {
+  color: #4c4c4c;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 1rem;
+}
