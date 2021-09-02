@@ -1,0 +1,52 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box-1 {
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.banner-title-mobile {
+  display: none;
+}
+
+.box-1 {
+  background-image: url();
+  background-color: #6c40c9;
+}
+
+
+.mobile {
+  display: none;
+}
+
+.banner-svg {
+  transition: 0.5s;
+}
+
+.banner-svg:hover {
+  filter: drop-shadow(0 0 1rem #ffcf1a);
+}
+
+.banner-svg-mobile {
+  display: none;
+}

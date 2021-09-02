@@ -1,0 +1,44 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-1 {
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+
+.box-1 {
+  background-color: #7b53ce;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-svg-mobile {
+  width: 10rem;
+}
+
+.banner-svg {
+  display: none;
+}
+
+.mobile-arrow {
+  height: 90px;
+  margin-bottom: 1rem;
+  transition: 1s;
+  fill: #ffcf1a;
+  filter: invert(98%) sepia(100%) saturate(3007%) hue-rotate(340deg) brightness(95%) contrast(80%);
+}

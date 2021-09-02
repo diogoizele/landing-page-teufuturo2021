@@ -7,56 +7,66 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fruta & Fruto</title>
-    <link href="./assets/css/normalize.css" rel="stylesheet" />
-    <link href="./assets/css/reset.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/about.css" />
-    <link rel="stylesheet" href="./assets/css/banner.css" media="screen and (min-width: 768px)" />
-    <link rel="stylesheet" href="./assets/css/bannerMobile.css" media="screen and (max-width: 768px)">
-    <link rel="stylesheet" href="./assets/css/header.css" />
-    <link rel="stylesheet" href="./assets/css/recipes.css" />
-    <link rel="stylesheet" href="./assets/css/people.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
+    <title>#TeuFuturo</title>
+
+    <link rel="stylesheet" href="./src/assets/styles/reset.css" />
+    <link rel="stylesheet" href="./src/assets/styles/normalize.css">
+    <link rel="stylesheet" href="./src/assets/styles/banner.css" media="screen and (min-width: 768px)" />
+    <link rel="stylesheet" href="./src/assets/styles/bannerMobile.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="./src/assets/styles/header.css" />
+    <link rel="stylesheet" href="./src/assets/styles/recipes.css" />
+    <link rel="stylesheet" href="./src/assets/styles/people.css">
+    <link rel="stylesheet" href="./src/assets/styles/footer.css">
+    <link rel="stylesheet" href="./src/assets/styles/sliderImages.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;300;400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="./src/assets/svg/teufuturo-svg.svg" type="image/x-icon">
   </head>
   <body>
     <header class="header">
       <a href="#inicio" class="header-logo">
-        <img src="./src/assets/img/logo-teufuturo.png" alt="Logo Fruta & Fruto" />
+        <img src="./src/assets/svg/teufuturo-svg.svg" alt="Logo #TeuFuturo" />
       </a>
       <nav class="header-menu">
         <ul class="header-menu-list">
           <li class="header-menu-item">
-            <a href="#inicio" class="header-menu-link home">Home</a>
+            <a href="#home" class="header-menu-link home">Home</a>
           </li>
           <li class="header-menu-item">
-            <a href="#receitas" class="header-menu-link">Sobre</a>
+            <a href="#sobre" class="header-menu-link">Sobre</a>
           </li>
           <li class="header-menu-item">
-            <a href="#quemsomos" class="header-menu-link">squad</a>
+            <a href="#squad" class="header-menu-link">squad</a>
           </li>
           <li class="header-menu-item">
-            <a href="#comunidade" class="header-menu-link">Quero participar</a>
+            <a href="#apoie-o-projeto" class="header-menu-link">Apoiar Projeto</a>
           </li>
           <li class="header-menu-item">
-            <a href="#comunidade" class="header-menu-link">Apoiar Projeto</a>
+            <a href="#quero-participar" class="header-menu-link">Quero participar</a>
           </li>
         </ul>
       </nav>
     </header>
-    <section class="banner box-1" id="inicio">
-
-      <img class="banner-svg" id="animatedTitle" src="./src/assets/svg/teufuturo-svg.svg"/>
-        
-  
-      <h2 class="banner-title mobile">Fruta & Fruto</h2>
+    <section class="banner box-1" id="home">
+      
+      <a href="#sobre">
+        <img class="banner-svg" id="animatedBanner" src="./src/assets/svg/teufuturo-svg.svg"/>
+      </a>
+      <div class="slider-images animated-banner" >
+        <img src="./src/assets/img/imed.png" alt="Logo-Tipo da IMED">
+        <img src="./src/assets/img/logo-yaman@2x.png" alt="Logo-Tipo da Yaman">
+      </div>
+      <div class="mobile">
+        <a href="#sobre">
+          <img class="mobile-arrow" src="./src/assets/img/Down-Arrow.png" alt="Veja Mais!">
+        </a>
+      </div>
     </section>
-    <section class="about" id="receitas">
+    <section class="about" id="sobre">
       <h2 class="about-title">Receitas para economizar e ganhar saúde</h2>
       <p class="about-description">
         Nossas receitas ajudam você a aproveitar melhor os alimentos,
@@ -195,8 +205,9 @@
       <p class="footer-text">email: frutaefruto@contato.com</p>
       <div class="footer-text">Icons made by <a class="footer-link" href="https://www.freepik.com" title="Freepik">Freepik</a> from <a class="footer-link" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </footer>
-    <script src="./js/textAnimation.js"></script>
-    <script src="./js/rotatePeople.js"></script>
-    <script src="./js/iconAnimation.js"></script>
+    <script src="./src/assets/js/rotatePeople.js"></script>
+    <script src="./src/assets/js/textAnimation.js"></script>
+    <script src="./src/assets/js/sliderImages.js"></script>
+    <script src="./src/assets/js/arrowFilter.js"></script>
   </body>
 </html>
