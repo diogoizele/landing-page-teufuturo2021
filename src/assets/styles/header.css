@@ -55,12 +55,16 @@
   .header-menu {
     height: 100%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .header-menu-list {
     height: 100%;
     width: 100%;
     font-size: 1rem;
+
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -69,6 +73,7 @@
   .header-menu-link {
     background-color: transparent;
     color: white;
+    padding: 2px;
   }
 }
 
@@ -82,7 +87,7 @@
   }
 
   .header-menu {
-    width: 46rem;
+    width: 36rem;
   }
 
   .header-menu-list {
