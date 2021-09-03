@@ -9,29 +9,17 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.box-1 {
-  position: relative;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  opacity: 0.9;
-}
-
-.box-1 {
   background-color: #7b53ce;
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
-.banner-svg-mobile {
+.banner-mobile {
   width: 10rem;
 }
 
-.banner-svg {
+.banner-image {
   display: none;
 }
 
@@ -39,6 +27,61 @@ html {
   height: 90px;
   margin-bottom: 1rem;
   transition: 1s;
-  fill: #ffcf1a;
-  filter: invert(98%) sepia(100%) saturate(3007%) hue-rotate(340deg) brightness(95%) contrast(80%);
+  filter: drop-shadow(0 0 2rem #ffcf1a);
+}
+
+.banner-yellow-lines div:nth-child(1) {
+  width: 0;
+  height: 10rem;
+  border-bottom: 1rem solid transparent;
+  border-left: 3rem solid white;
+  position: absolute;
+  top: -2rem;
+  transform: rotate(20deg);
+
+  margin-left: 10rem;
+}
+
+.banner-yellow-lines div:nth-child(2) {
+  width: 0;
+  height: 20rem;
+  border-bottom: 1rem solid transparent;
+  border-left: 3rem solid #ffcf1a;
+  position: absolute;
+  top: -2rem;
+  margin-left: 4rem;
+  transform: rotate(20deg);
+}
+
+.banner-yellow-lines div:nth-child(3) {
+  width: 0;
+  height: 50rem;
+  border-bottom: 1.5rem solid transparent;
+  border-left: 4.5rem solid white;
+  position: absolute;
+  bottom: -3rem;
+  margin-left: 4rem;
+  right: -1rem;
+  transform: rotate(200deg);
+}
+
+.banner-yellow-lines div:nth-child(4) {
+  width: 0;
+  height: 10rem;
+  border-bottom: 1rem solid transparent;
+  border-left: 3rem solid #ffcf1a;
+  position: absolute;
+  bottom: -2rem;
+  margin-left: 5rem;
+  right: 2rem;
+  transform: rotate(200deg);
+}
+
+.banner-yellow-lines div:nth-child(5) {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+  left: 0px;
+  bottom: -4rem;
 }

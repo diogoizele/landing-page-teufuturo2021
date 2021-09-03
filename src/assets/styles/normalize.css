@@ -351,3 +351,14 @@ template {
 [hidden] {
   display: none;
 }
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+  height: 0.7rem;
+  background-color: #16120d;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #6b40c98a;
+}
