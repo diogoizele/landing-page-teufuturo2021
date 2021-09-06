@@ -24,13 +24,17 @@
     />
     <link rel="stylesheet" href="./src/assets/styles/header.css" />
     <link rel="stylesheet" href="./src/assets/styles/recipes.css" />
-    <link rel="stylesheet" href="./src/assets/styles/people.css" />
     <link rel="stylesheet" href="./src/assets/styles/footer.css" />
     <link rel="stylesheet" href="./src/assets/styles/sliderImages.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="./src/assets/styles/squad.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Slackey&display=swap"
       rel="stylesheet"
     />
     <link
@@ -100,38 +104,27 @@
         <h2 class="about-title">Conheça o #TeuFuturo</h2>
         <p class="about-description">
           O projeto visa dar aquele "empurrãozinho" em jovens interessados na
-          carreira de ciência da computação, com módulos comportamentais e
-          técnicos que ajudarão tanto o adolescente se sair bem em uma
-          entrevista de emprego quanto desenvolver aplicações modernas com as
-          tecnologias da web.
+          carreira de ciências da computação, com
+          <strong> módulos comportamentais e técnicos</strong> que ajudarão
+          tanto o adolescente se sair bem em uma entrevista de emprego quanto
+          desenvolver aplicações modernas com as tecnologias da web.
         </p>
       </div>
       <div class="about-info">
-        <img
-          src="https://www.kenyons.com/wp-content/uploads/2017/04/default-image-620x600.jpg"
-          alt=""
-        />
-        <p class="about-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-          facilisis lectus eu augue congue placerat. Maecenas tempus placerat
-          nisi et blandit. Nunc mollis turpis metus. Curabitur dignissim mollis
-          augue, vel semper nunc dignissim suscipit. Etiam nec auctor purus. Ut
-          nec sagittis turpis, eget tincidunt neque. Vivamus sagittis, justo id
-          pharetra posuere, nisi justo tempus lacus, at vehicula erat nisl vitae
-          augue. Vestibulum ante ipsum primis in faucibus orci luctus et
-          ultrices posuere cubilia curae; Duis venenatis at felis id dapibus.
-          Vestibulum tincidunt, metus sed malesuada pellentesque, libero nisl
-          rutrum quam, et lacinia nisl augue non lacus. Vestibulum vulputate
-          justo malesuada urna volutpat, vel varius lorem faucibus. Duis id
-          tempor eros, rhoncus suscipit risus. Maecenas tincidunt ultricies nisl
-          eget volutpat. Suspendisse in leo iaculis arcu suscipit cursus. Donec
-          facilisis gravida risus, id molestie diam iaculis non. Sed at
-          elementum dolor. Fusce consectetur hendrerit dolor, ut tincidunt nunc.
-          Morbi porttitor quis magna in imperdiet. Ut egestas venenatis lorem,
-          vel efficitur sapien lobortis sit amet. Vestibulum iaculis nisl ac
-          eros facilisis elementum. Integer nec condimentum quam, quis laoreet
-          eros.
-        </p>
+        <img src="./src/assets/img/programming-students.jpg" alt="" />
+        <div class="about-description">
+          <h3>Ciências da Computação</h3>
+          <p>
+            Sobre a carreira de ciências da computação podemos destacar a visão
+            intercontextualizada da área, ou seja, integrada a diversas outras
+            áreas do conhecimento. Criatividade, visão empreendedora e postura
+            inovadora são algumas das capacidades que um profissional dessa área
+            irá desenvolver, além disso irá aprimorar sua capacidade de resolver
+            problemas por meio da tecnologia, de forma que possa atender as
+            diferentes demandas, tanto técnicas quanto comportamentais, de onde
+            atuar.
+          </p>
+        </div>
       </div>
       <div class="about-info">
         <p class="about-description">Programa #TeuFuturo 2021</p>
@@ -147,38 +140,50 @@
       </div>
     </section>
 
-    <section class="people" id="quemsomos">
-      <h3 class="about-title">Quem somos?</h3>
-      <p class="about-description">
-        Conheça a comunidade por trás da iniciativa
-      </p>
+    <section class="squad" id="squad">
+      <h3 class="squad-title">
+        <span>S</span><span>Q</span><span>U</span><span>A</span><span>D</span>
+      </h3>
+      <p class="about-description">Conhecendo um pouco dos participantes.</p>
       <ul class="people-list">
         <li class="people-item">
           <img
             class="people-image"
-            src="./assets/img/pessoas/andreia.jpg"
-            alt="Colaboradora Andreia"
+            src="./src/assets/img/participante_diogo_schievou.jpg"
+            alt="Participante Diogo Shievou"
           />
-          <h4 class="people-name">Andreia</h4>
-          <p class="people-description">Chefe de Cozinha</p>
+          <h4 class="people-name">Diogo Shievou</h4>
+          <p class="people-description">
+            "Olá me chamo Diogo, tenho 18 anos, sou de Porto Alegre e estou
+            terminando o ensino médio.
+          </p>
+          <button onclick="showInfo(0)" class="people-button">Ver mais</button>
         </li>
         <li class="people-item">
           <img
             class="people-image"
-            src="./assets/img/pessoas/roberta.jpg"
-            alt="Colaboradora Roberta"
+            src="./src/assets/img/participante_carolina_silva.jpg"
+            alt="Participante Carolina da Silva"
           />
-          <h4 class="people-name">Roberta</h4>
-          <p class="people-description">Nutricionista</p>
+          <h4 class="people-name">Carolina da Silva</h4>
+          <p class="people-description">
+            "Meu nome é Carolina da Silva, tenho 18 anos e sou residente de
+            Porto Alegre.
+          </p>
+          <button onclick="showInfo(1)" class="people-button">Ver mais</button>
         </li>
         <li class="people-item">
           <img
             class="people-image"
-            src="./assets/img/pessoas/marcela.jpg"
-            alt="Colaboradora Marcela"
+            src="./src/assets/img/participante_diogo_izele.jpg"
+            alt="Participante Diogo Izele"
           />
-          <h4 class="people-name">Marcela</h4>
-          <p class="people-description">Agricultora Familiar</p>
+          <h4 class="people-name">Diogo Izele</h4>
+          <p class="people-description">
+            "Olá, tudo bem com você? Me chamo Diogo Izele, tenho 19 anos e moro
+            em Marau, Rio Grande do Sul.
+          </p>
+          <button onclick="showInfo(2)" class="people-button">Ver mais</button>
         </li>
       </ul>
     </section>
@@ -187,9 +192,10 @@
       <p class="footer-text">email: frutaefruto@contato.com</p>
       <div class="footer-text">Icons made by <a class="footer-link" href="https://www.freepik.com" title="Freepik">Freepik</a> from <a class="footer-link" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </footer> -->
-    <script src="./src/assets/js/rotatePeople.js"></script>
+    <!-- <script src="./src/assets/js/rotatePeople.js"></script> -->
     <script src="./src/assets/js/textAnimation.js"></script>
     <script src="./src/assets/js/sliderImages.js"></script>
     <script src="./src/assets/js/arrowFilter.js"></script>
+    <script src="./src/assets/js/main.js"></script>
   </body>
 </html>
