@@ -71,6 +71,9 @@ html {
     align-items: center;
     justify-content: center;
   }
+  .about-info:nth-child(2) .about-description {
+    padding: 0;
+  }
 
   .about-info:nth-child(3) iframe {
     width: 100%;
@@ -96,7 +99,7 @@ html {
   }
 
   .about-info:nth-child(3) iframe {
-    height: 30rem
+    height: 30rem;
   }
 }
 
