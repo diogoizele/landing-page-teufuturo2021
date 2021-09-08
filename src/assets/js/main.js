@@ -13,11 +13,22 @@ const data = {
       email: "dasilvacarolina.carolina@gmail.com",
     },
     {
-        name: "Diogo Izele",
-        testimonial:
-          '"Olá, tudo bem com você? Me chamo Diogo Izele, tenho 19 anos e moro em Marau, Rio Grande do Sul. Iniciei no mundo da programação em 2019, ao ingressar no Curso Técnico com Ensino Médio Integrado de Informática pelo IFSUL – Campus Passo Fundo. Durante minha trajetória na área me deparei com diversos desafios que todo iniciante em programação enfrenta, porém com muita dedicação e prática, atualmente tenho uma segurança na área do desenvolvimento web com HTML5, CSS3 e JavaScript. A partir de agora meus planos são concluir meus cursos e seguir na área aprendendo cada vez mais sobre a Web, a fim de dominar as mais modernas tecnologias Front-End do mercado como por exemplo a biblioteca React e React Native para Mobile e o Framework Next para geração de sites estáticos. Estou sempre à disposição para trocar uma ideia, ajudar quem precisa e aprender coisas novas, agradeço a atenção!"',
-        email: "diogogabrielizele@gmail.com",
-      },
+      name: "Diogo Izele",
+      testimonial: '""',
+      email: "diogogabrielizele@gmail.com",
+    },
+    {
+      name: "Cristina Pires da Silveira",
+      testimonial:
+        '"Meu nome é Cristina Pires da Silveira, tenho 16 anos, sou natural de Porto Alegre e apaixonada por design, arte e cultura, além da incrível tecnologia existente! Meu objetivo de vida sempre foi adquirir conhecimento e aprendizado, crescer como pessoa e profissional, mas precisava de, pelo menos, uma oportunidade para desempenhar isto! Quando soube do projeto #TeuFuturo, não pensei duas vezes e me inscrevi, pois era disso que mais precisava nesse momento de desenvolvimento na minha vida. Tenho vivido momentos incríveis no projeto, aprendido coisas que não compreendia e nem sabia da existência! No programa, desenvolvo habilidades intelectuais, físicas, técnicas e comportamentais, o que será de grande importância e relevância para acrescentar em minha trajetória pessoal e profissional."',
+      email: "cristinapiresdasilveira@gmail.com",
+    },
+    {
+      name: "Dylan",
+      testimonial:
+        '"Meu nome é Dylan, tenho 17 anos e sou de porto alegre. \n Meu pai tinha um computador e aos 5 anos, quando aprendi a ler, já comecei a usa-lo e hoje já tenho 12 anos de prática utilizando computadores, aprendi a usar diversos programas, joguei vários jogos, visitei muitos sites, mas em um momento do ano passado (2020) percebi que havia uma coisa que eu não tinha explorado ainda: Como criam todas essas coisas que eu uso a mais de uma década? \n Então depois de pensar sobre isso cogitei a possibilidade de um dia estudar como os jogos, programas e sites eram criados, então quando recebi o e-mail falando sobre o curso eu aceitei o desafio e me inscrevi mesmo sem saber absolutamente nada sobre programação, apenas pela diversão. \n Quando o curso começou não sabia o que esperar, era tudo muito novo pra mim, mas como tenho uma boa estrutura (bom computador e boa internet) não tive nenhuma dificuldade para iniciar a assistir as aulas e me empenhei desde o primeiro dia. Cometi alguns erros até entender como o sistema funcionava, mas logo com a minha experiência com computadores e persistência comecei a entender um pouco da programação, notei que não é algo simples, mas como tudo na vida, devemos nos esforçar para conseguir aprender. \n Até agora estou achando o curso muito interessante, já sou capaz de fazer alguns programas, jogos e sites simples, com muito estudo e autodidatismo, mas consigo. O curso é uma oportunidade muito boa na minha visão, é uma área que falta mão de obra no Brasil, com uma boa remuneração e amplas possibilidades de emprego, toda empresa precisa de um site, máquinas precisam de um software para comanda-las, inteligências artificiais precisam primeiro que uma pessoa a programe para cria-la, e como o mundo tende a se modernizar cada vez mais. A programação é a área dessa década e das próximas, talvez até do século XXI, e se você for uma pessoa interessada e empenhada eu recomendo fortemente que de uma chance ao curso, garanto que você mesmo que não ache à programação a profissão que você queira no futuro ainda sim aprenderá muito e conhecerá pessoas incríveis que serão suas colegas. \n “Permita-se ao conhecimento! Nunca é demais saber a mais”"',
+      email: "dylanfigueiredo@outlook.com",
+    },
   ],
 };
 

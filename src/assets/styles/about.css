@@ -86,12 +86,16 @@ html {
   }
 
   .about-info:nth-child(2) {
-    padding: 5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     text-align: justify;
+    margin-bottom: 3rem;
+  }
+
+  .about-info:nth-child(2) .about-description {
+    padding: 3rem;
   }
 
   .about-info img {
