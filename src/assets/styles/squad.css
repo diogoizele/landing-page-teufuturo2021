@@ -69,23 +69,32 @@ body {
 }
 
 .people-modal {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
   position: fixed;
+
   left: 0;
   top: 0;
   right: 0;
+  bottom: 0;
   z-index: 1;
-  background-color: #111111f1;
-  height: 100vh;
-  padding: 2rem;
-  text-align: justify;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
+  text-align: justify;
   box-sizing: border-box;
+  
+  color: white;
+  background-color: #111111;
 }
 .people-modal h4 {
   font-size: 2rem;
+}
+
+.people-modal p {
+  white-space: pre-line;
 }
 
 .close-button {
