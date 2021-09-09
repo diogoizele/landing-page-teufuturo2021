@@ -65,3 +65,22 @@
   font-size: 3.5rem;
   color: #7b53ce;
 }
+
+@media screen and (max-width: 868px) {
+  .support > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+  }
+
+  .support > div > img {
+    width: 100%;
+  }
+
+  .support div > div {
+    width: 90%;
+    padding: 1rem;
+  }
+}
