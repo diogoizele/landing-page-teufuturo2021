@@ -53,6 +53,7 @@ function showInfo(index) {
       testimonial.innerHTML = participant.testimonial;
       linkedin.innerHTML = `LinkedIn: ${participant.name}`;
       linkedin.setAttribute("href", participant.linkedin);
+      linkedin.setAttribute("target", "_blank");
       closeButton.innerHTML = "✕";
     }
   });
