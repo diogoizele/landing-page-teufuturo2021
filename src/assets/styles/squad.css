@@ -96,6 +96,11 @@ body {
 .people-modal p {
   white-space: pre-line;
 }
+.people-modal a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #0a66c2;
+}
 
 .close-button {
   position: absolute;

@@ -1,6 +1,6 @@
 .footer {
   padding: 2rem;
-  background-color: #a02222;
+  background-color: #7b53ce;
   text-align: center;
 }
 
@@ -8,15 +8,4 @@
   color: white;
   font-weight: 200;
   font-size: 2rem;
-}
-
-.footer-text {
-  font-size: 1.1rem;
-  color: white;
-  cursor: pointer;
-}
-
-.footer-link {
-  text-decoration: none;
-  color: #1a0202;
 }
