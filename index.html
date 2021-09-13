@@ -8,7 +8,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>#TeuFuturo</title>
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./src/assets/styles/reset.css" />
     <link rel="stylesheet" href="./src/assets/styles/normalize.css" />
     <link rel="stylesheet" href="./src/assets/styles/about.css" />
@@ -68,6 +68,7 @@
         </ul>
       </nav>
     </header>
+
     <section class="banner" id="home">
       <a href="#sobre">
         <img
@@ -102,7 +103,7 @@
     </section>
 
     <section class="about" id="sobre">
-      <div class="about-info">
+      <div class="about-info" data-aos="fade-up" data-aos-delay="150">
         <h2 class="about-title">Conheça o #TeuFuturo</h2>
         <p class="about-description">
           O projeto visa dar aquele "empurrãozinho" em jovens interessados na
@@ -113,8 +114,12 @@
         </p>
       </div>
       <div class="about-info">
-        <img src="./src/assets/img/programming-students.jpg" alt="" />
-        <div class="about-description">
+        <img
+          src="./src/assets/img/programming-students.jpg"
+          alt=""
+          data-aos="fade-right"
+        />
+        <div class="about-description" data-aos="fade-right">
           <h3>Ciências da Computação</h3>
           <p>
             Sobre a carreira de ciências da computação podemos destacar a visão
@@ -128,7 +133,7 @@
           </p>
         </div>
       </div>
-      <div class="about-info">
+      <div class="about-info" data-aos="fade-up">
         <p class="about-description">Programa #TeuFuturo 2021</p>
         <iframe
           width="560"
@@ -141,10 +146,14 @@
         ></iframe>
       </div>
       <div class="about-info">
-        <img src="./src/assets/img/alura.png" alt="Logo da Alura" />
+        <img
+          src="./src/assets/img/alura.png"
+          alt="Logo da Alura"
+          data-aos="zoom-in-up"
+        />
         <div>
           <ul>
-            <li>
+            <li data-aos="zoom-in">
               <img src="./src/assets/img//js.png" alt="JavaScript Logo" />
               <h5>JavaScript</h5>
               <p>
@@ -159,7 +168,7 @@
                 tecnologias mais importantes e utilizadas na internet.
               </p>
             </li>
-            <li>
+            <li data-aos="zoom-in">
               <img src="./src/assets/img/html5.jpg" alt="HTML5 Logo" />
               <h5>HTML5</h5>
               <p>
@@ -174,7 +183,7 @@
                 Wide Web” (Rede Mundial de Computadores).
               </p>
             </li>
-            <li>
+            <li data-aos="zoom-in">
               <img src="./src/assets/img/css3.jpg" alt="CSS3 Logo" />
               <h5>CSS3</h5>
               <p>
@@ -189,7 +198,7 @@
                 estilo, apenas a marcação da página.
               </p>
             </li>
-            <li>
+            <li data-aos="zoom-in">
               <img src="./src/assets/img/reactjs.jpg" alt="ReactJS Logo" />
               <h5>ReactJS</h5>
               <p>
@@ -205,10 +214,14 @@
             </li>
           </ul>
         </div>
-        <img src="./src/assets/img/Whadwany.png" alt="Logo da Whadwany" />
+        <img
+          src="./src/assets/img/Whadwany.png"
+          alt="Logo da Whadwany"
+          data-aos="fade-up"
+        />
         <div>
           <ul>
-            <li>
+            <li data-aos="zoom-in">
               <img src="./src/assets/img/communication.jpg" alt="Comunicação" />
               <h5>Comunicação</h5>
               <p>
@@ -222,7 +235,7 @@
                 disposta a aprofundar e especializar seus conhecimentos.
               </p>
             </li>
-            <li>
+            <li data-aos="zoom-in">
               <img
                 src="./src/assets/img/teamwork.jpg"
                 alt="Trabalho em Equipe"
@@ -240,7 +253,7 @@
                 como equipe.
               </p>
             </li>
-            <li>
+            <li data-aos="zoom-in">
               <img
                 src="./src/assets/img/solveproblems.jpg"
                 alt="Foco no Cliente e Resolução de Problemas"
@@ -260,7 +273,7 @@
                 poucos conhecidos pela população, a exemplo do Design Thinking.
               </p>
             </li>
-            <li>
+            <li data-aos="zoom-in">
               <img
                 src="./src/assets/img/business.jpg"
                 alt="Mentalidade Empresarial"
@@ -282,7 +295,7 @@
     </section>
 
     <section class="squad" id="squad">
-      <h3 class="squad-title">
+      <h3 class="squad-title" data-aos="fade-up">
         <span>S</span><span>Q</span><span>U</span><span>A</span><span>D</span>
       </h3>
       <p class="about-description">Conhecendo um pouco dos participantes.</p>
@@ -355,7 +368,7 @@
         </li>
       </ul>
       <p class="about-description">Ex-alunos</p>
-      <ul>
+      <ul class="people-list">
         <li class="people-item">
           <img
             class="people-image"
@@ -370,55 +383,70 @@
           </p>
           <button onclick="showInfo(5)" class="people-button">Ver mais</button>
         </li>
+        <li class="people-item">
+          <img
+            class="people-image"
+            src="./src/assets/img/ex_participante_emilia-ferlin.jpg"
+            alt="Ex-Participante Emília Ferlin"
+          />
+          <h4 class="people-name">Emília Ferlin</h4>
+          <p class="people-description">
+            "O programa do Teu Futuro abriu portas inimagináveis, o que achei
+            que poderia ser pequeno e insignificante como uma propaganda
+            chamativa e sem benefício algum.
+          </p>
+          <button onclick="showInfo(6)" class="people-button">Ver mais</button>
+        </li>
       </ul>
     </section>
 
     <section class="support" id="apoie-o-projeto">
-      <div>
+      <div data-aos="fade-right">
         <img src="./src/assets/img/yaman-empresa.jpg" alt="Empresa Yaman" />
-        <div>
+        <div data-aos="fade-right">
           <h4>
             <a id="yam" href="https://yaman.com.br/pt-br/" target="_blank"
               >Yaman</a
             >
           </h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            semper pulvinar nisi et ultrices. Cras iaculis imperdiet justo, quis
-            finibus purus sodales eget. Maecenas neque libero, viverra et
-            rhoncus non, elementum vel risus. Suspendisse potenti. Sed
-            scelerisque magna augue, et bibendum leo accumsan quis. Donec
-            rhoncus nisi vel massa elementum tempus. Cras vel ornare tortor.
-            Vestibulum pharetra sagittis pellentesque. Curabitur rhoncus urna
-            risus, sit amet laoreet purus consequat et.
+            A Yaman é uma das principais consultorias de qualidade e engenharia
+            de software do Brasil, especializada na entrega de aplicações
+            confiáveis, seguras e rápidas para seus clientes. Em sintonia com a
+            crescente evolução da era digital, o segredo do sucesso dos clientes
+            da Yaman em suas jornadas digitais está na capacidade de entregar
+            experiências únicas para seus clientes finais, com extrema
+            velocidade de time-to-market. Para a equipe Yaman, aplicações com
+            qualidade significa entregar aplicações/software seguros, negócios
+            digitais estáveis e crescentes e que protejam as pessoas envolvidas
+            com alta disponibilidade e com excelente usabilidade dos serviços.
           </p>
         </div>
       </div>
       <div>
-        <div>
+        <div data-aos="fade-left">
           <h4>
             <a id="wad" href="https://www.wfglobal.org/" target="_blank"
               >Wadhwani</a
             >
           </h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            semper pulvinar nisi et ultrices. Cras iaculis imperdiet justo, quis
-            finibus purus sodales eget. Maecenas neque libero, viverra et
-            rhoncus non, elementum vel risus. Suspendisse potenti. Sed
-            scelerisque magna augue, et bibendum leo accumsan quis. Donec
-            rhoncus nisi vel massa elementum tempus. Cras vel ornare tortor.
-            Vestibulum pharetra sagittis pellentesque. Curabitur rhoncus urna
-            risus, sit amet laoreet purus consequat et.
+            A principal missão da Fundação Wadhwani é acelerar o desenvolvimento
+            das economias emergentes e promover a criação de empregos de alto
+            valor. A partir de investimentos feitos para a promoção do
+            empreendedorismo, da inovação e da capacitação em competências
+            importantes para o mundo profissional, a WF pretende empoderar
+            indivíduos e mudar vidas.
           </p>
         </div>
         <img
           src="./src/assets/img/wadhwani-empresa.jpg"
           alt="Fundação Wadhwani"
+          data-aos="fade-left"
         />
       </div>
-      <h5>Faça como a Yaman e a Wadhwani e</h5>
-      <div>
+      <h5 data-aos="fade-in">Faça como a Yaman e a Wadhwani e</h5>
+      <div data-aos="fade-in">
         <h4 class="support-message">
           Apoie
           <a
@@ -430,6 +458,7 @@
         </h4>
       </div>
     </section>
+
     <section class="contact" id="quero-participar">
       <div>
         <section>
@@ -451,8 +480,12 @@
       </div>
     </section>
     <footer class="footer">
-      <!-- <p class="footer-copyright">&#169 #TeuFuturo 2021</p> -->
+      <p class="footer-copyright">&#169 #TeuFuturo 2021</p>
     </footer>
     <script src="./src/assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

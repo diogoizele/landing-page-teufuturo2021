@@ -15,7 +15,7 @@ const data = {
     {
       name: "Diogo Izele",
       testimonial:
-        '"Olá, me chamo Diogo Izele, tenho 19 anos e moro em Marau-RS. Iniciei no mundo da programação em 2019, ao ingressar no Curso Técnico Integrado de Informática pelo IFSUL – Campus Passo Fundo. \n Durante minha trajetória na área me deparei com diversos desafios que todo iniciante em programação enfrenta, porém com dedicação e prática consegui entender como o desenvolvimento web funciona e atualmente sinto prazer em desenvolver soulçoes para o front-end com HTML5, CSS3 e JavaScript. \n Eu iniciei no teu futuro por 2 motivos, o primeiro foi me conectar com pessoas que tinham interesses semelhantes aos meus e o segundo foi aprimorar as qualificações comportamentais que um profissional de tecnologia precisa, e acredito que estou aproveitando muito bem essa oportunidade. Estou sempre à disposição para trocar uma ideia, ajudar quem precisa e aprender coisas novas pois é em conjunto que todos crescemos!"',
+        '"Olá, me chamo Diogo Izele, tenho 19 anos e moro em Marau-RS. Iniciei no mundo da programação em 2019, ao ingressar no Curso Técnico Integrado de Informática pelo IFSUL – Campus Passo Fundo. \n Durante minha trajetória na área me deparei com diversos desafios que todo iniciante em programação enfrenta, porém com dedicação e prática consegui entender como o desenvolvimento web funciona e atualmente sinto prazer em desenvolver soluções para o front-end com HTML5, CSS3 e JavaScript. \n Eu iniciei no teu futuro por 2 motivos, o primeiro foi me conectar com pessoas que tinham interesses semelhantes aos meus e o segundo foi aprimorar as qualificações comportamentais que um profissional de tecnologia precisa, e acredito que estou aproveitando muito bem essa oportunidade. Estou sempre à disposição para trocar uma ideia, ajudar quem precisa e aprender coisas novas pois é em conjunto que todos crescemos!"',
       linkedin: "https://www.linkedin.com/in/diogoizele/",
     },
     {
@@ -35,6 +35,12 @@ const data = {
       testimonial:
         '"Eu participei do #TeuFuturo no ano de 2018, e durante o programa, muito além do técnico pude desenvolver habilidades humanas: comunicação, empatia, liderança, tudo isso em conjunto com a imersão no dia a dia do profissional de TI, que o #TeuFuturo possibilitou, através de visitas a empresas, eventos acadêmicos e projetos práticos. Todos estes aspectos foram essenciais para meu desenvolvimento profissional. Além disso, foi em um evento disponibilizado pelo #TeuFuturo com a IMED e empresas parceiras, que tive meu primeiro contato com o mercado de trabalho, e, posteriormente iniciei minha carreira em uma das empresas participantes do evento. Também foi graças ao programa que consegui ingressar na graduação através de uma bolsa parcial."',
       linkedin: "https://www.linkedin.com/in/isaura-koch-a3a990169/",
+    },
+    {
+      name: "Ex-aluna: Emília Ferlin",
+      testimonial:
+        '"O programa do Teu Futuro abriu portas inimagináveis, o que achei que poderia ser pequeno e insignificante como uma propaganda chamativa e sem benefício algum. Se tornou algo gigante, com nome, propriedade e muito, mas muito sobrenome(futuro). Além de ter-me proporcionado um contato forte na área, obtive uma rica base científica para minha atual área acadêmica. O programa com base no que chamamos de algoritmos e lógica, foi mais além, foi comunicação e desenvolvimento ágil. Enfim, já diria a magnífica e motivadora a todos nós, "aquele meu cérebro é algo mais do que simplesmente mortal; com o tempo vai mostrar." -Ada Lovelace"',
+      linkedin: "https://www.linkedin.com/in/emilia-ferlin-b254111b1/",
     },
   ],
 };
