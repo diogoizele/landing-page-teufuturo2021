@@ -42,6 +42,12 @@ const data = {
         '"O programa do Teu Futuro abriu portas inimagináveis, o que achei que poderia ser pequeno e insignificante como uma propaganda chamativa e sem benefício algum. Se tornou algo gigante, com nome, propriedade e muito, mas muito sobrenome(futuro). Além de ter-me proporcionado um contato forte na área, obtive uma rica base científica para minha atual área acadêmica. O programa com base no que chamamos de algoritmos e lógica, foi mais além, foi comunicação e desenvolvimento ágil. Enfim, já diria a magnífica e motivadora a todos nós, "aquele meu cérebro é algo mais do que simplesmente mortal; com o tempo vai mostrar." -Ada Lovelace"',
       linkedin: "https://www.linkedin.com/in/emilia-ferlin-b254111b1/",
     },
+    {
+      name: "Luiz Felipe",
+      testimonial:
+        '"Olá, me chamo Luiz Felipe, tenho 17 anos, sou natural de porto alegre e estou terminando o ensino médio. Sempre fui uma pessoa apaixonada por técnologia, e naturalmente com o passar dos meus anos em frente ao computador, a boa e velha dúvida surgiu, "como isso foi feito?", "o que há por trás desse software?", desde então pesquisei mais e mais sobre como softwares e páginas web são desenvolvidos, sobre as linguagens de programação, sobre os alicerces de todas as páginas na internet, o que me levou ao programa TeuFuturo, abrindo um leque de possibilidades inimagináveis para o meu desenvolvimento pessoal e profissional."',
+      linkedin: "https://www.linkedin.com/in/luiz-felipe-selau-96ba6421b/",
+    },
   ],
 };
 
@@ -120,7 +126,8 @@ function arrowShadow() {
   }, 2000 * 2);
 }
 
-function submitForm() {
+function submitForm(e) {
+  e.preventDefault()
   const form = document.querySelector("#contactForm");
   const name = document.querySelector("#inputName");
   const email = document.querySelector("#inputEmail");
