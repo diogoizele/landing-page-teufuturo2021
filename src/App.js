@@ -1,11 +1,32 @@
-import "./App.css";
+import { useState } from "react";
+import About from "./components/About/About";
+import Banner from "./components/Banner/Banner";
+import Header from "./components/Header/Header";
+import Squad from "./components/Squad/Squad";
 
-function App() {
+const App = (props) => {
+  const [headerVisibility, setHeaderVisibility] = useState(false);
+
+  const scrollPageHandler = (event) => {
+    const pageHeight = window.innerHeight;
+    const currentHeight = window.scrollY;
+    if (currentHeight + 1 > pageHeight) {
+      setHeaderVisibility(true);
+    } else {
+      setHeaderVisibility(false);
+    }
+  };
+
+  window.addEventListener("scroll", scrollPageHandler);
+
   return (
-    <div className="App">
-      <h1>Hello, Wolrd</h1>
+    <div className="App" onScroll={scrollPageHandler}>
+      {headerVisibility && <Header />}
+      <Banner id="inicio" />
+      <About id="sobre" />
+      <Squad id="squad" />
     </div>
   );
-}
+};
 
 export default App;

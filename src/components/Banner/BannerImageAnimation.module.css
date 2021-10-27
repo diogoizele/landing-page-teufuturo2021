@@ -1,0 +1,35 @@
+.banner-image {
+  box-sizing: border-box;
+  width: 25rem;
+  height: 10rem;
+  padding: 2rem;
+
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 1px #383838;
+  border-radius: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1;
+}
+
+.banner-image a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-image img {
+  width: 20rem;
+}
+
+@media screen and (max-width: 800px) {
+  .banner-image {
+    width: 80%;
+  }
+  .banner-image img {
+    width: 80%;
+  }
+}
