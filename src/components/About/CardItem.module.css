@@ -15,18 +15,14 @@
 }
 
 .item div > div {
-  height: 100%;
+  height: 80%;
 }
 
-.item div {
-  height: 80%;
-  width: inherit;
-}
 
 .item label {
   color: #333;
   font-weight: 600;
-  height: 25%;
+  height: 20%;
   font-size: 2rem;
   display: flex;
   align-items: center;
@@ -62,8 +58,14 @@
 }
 
 .item .flip-box__back {
-  padding: 1rem;
   box-sizing: border-box;
+  height: 100%;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   text-align: justify;
   transform: rotateY(180deg);
   font-size: calc(100% + 1px);

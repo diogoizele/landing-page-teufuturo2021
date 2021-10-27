@@ -41,3 +41,19 @@
   box-shadow: 3px 3px 0px #333;
   font-size: 1rem;
 }
+
+.squad-backdrop   div {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  top: 1rem;
+  left: 1rem;
+  width: 300px;
+  height: 300px;
+  padding: 1rem;
+  background-color: red;
+}
+
+.squad-backdrop  div img {
+  width: 20rem
+}
+
