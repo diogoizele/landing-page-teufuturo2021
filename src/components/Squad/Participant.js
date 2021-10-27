@@ -6,14 +6,18 @@ const Participant = (props) => {
       name: props.name,
       image: props.src,
       description: props.description,
-      linkedin: props.linkedin
-    }
-    
-    props.onShowInfo(participant)
+      linkedin: props.linkedin,
+    };
+
+    props.onShowInfo(participant);
   };
 
   return (
-    <li className={styles.card}>
+    <li
+      className={styles.card}
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
       <img src={props.src} alt="Foto do Participante" />
       <h4>{props.name}</h4>
       <p>{props.description}</p>

@@ -26,11 +26,11 @@ const Contact = (props) => {
   return (
     <Section id={props.id} color="#FFCF1A">
       <div className={styles.contact}>
-        <div>
+        <div data-aos="fade-down">
           <h3>Inscreva-se!</h3>
           <img src={backpack} alt="Mochila do #TeuFuturo" />
         </div>
-        <div>
+        <div data-aos="fade-up">
           <form onSubmit={submitFormHandler}>
             <h4>Preencha o formulário e entraremos em contato com você.</h4>
             <input

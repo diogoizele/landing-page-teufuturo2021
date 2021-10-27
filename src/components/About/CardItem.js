@@ -2,7 +2,7 @@ import styles from "./CardItem.module.css";
 
 const CardItem = (props) => {
   return (
-    <li className={styles.item}>
+    <li className={styles.item} data-aos="zoom-in">
       <div className={styles["flip-box"]}>
         <div className={styles["flip-box__front"]}>
           <div>

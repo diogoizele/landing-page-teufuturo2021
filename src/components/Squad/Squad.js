@@ -31,7 +31,7 @@ const Squad = (props) => {
         ""
       )}
       <div className={styles["squad-header"]}>
-        <h3>SQUAD</h3>
+        <h3 data-aos="flip-left">SQUAD</h3>
         <p>Conhecendo um pouco dos participantes.</p>
       </div>
       <div className={styles["squad-participants"]}>

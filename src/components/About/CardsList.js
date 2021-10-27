@@ -5,7 +5,7 @@ const CardsList = (props) => {
   return (
     <div className={styles["card-list"]}>
       <div>
-        <img src={props.src} alt={props.alt} />
+        <img src={props.src} alt={props.alt} data-aos="fade-up" />
       </div>
       <ul>
         {props.items.map((card, index) => {

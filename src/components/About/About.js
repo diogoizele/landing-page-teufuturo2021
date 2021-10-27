@@ -14,17 +14,17 @@ import behavioralItems from "../../data/behavioralItems";
 const About = (props) => {
   return (
     <Section id={props.id}>
-      <Outdoor>
+      <Outdoor data-aos="fade-up">
         <h2>Conheça o #TeuFuturo</h2>
         <p>
           O projeto visa dar aquele "empurrãozinho" em jovens interessados na
-          carreira de ciências da computação, com
+          carreira d e ciências da computação, com
           <strong> módulos comportamentais e técnicos</strong> que ajudarão
           tanto o adolescente se sair bem em uma entrevista de emprego quanto
           desenvolver aplicações modernas com as tecnologias da web.
         </p>
       </Outdoor>
-      <div className={styles.info}>
+      <div className={styles.info}  data-aos="fade-right">
         <div>
           <img src={programmingStudents} alt="Estudantes de Programação" />
         </div>
@@ -42,7 +42,7 @@ const About = (props) => {
           </p>
         </div>
       </div>
-      <Outdoor>
+      <Outdoor  data-aos="fade-up">
         <h3>Programa #TeuFuturo 2021</h3>
         <iframe
           width="560"
