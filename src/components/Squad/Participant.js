@@ -1,4 +1,4 @@
-import styles from "./Participant.module.css";
+import classes from "./Participant.module.css";
 
 const Participant = (props) => {
   const showParticipantInformationHandler = () => {
@@ -7,6 +7,7 @@ const Participant = (props) => {
       image: props.src,
       description: props.description,
       linkedin: props.linkedin,
+      github: props.github,
     };
 
     props.onShowInfo(participant);
@@ -14,7 +15,7 @@ const Participant = (props) => {
 
   return (
     <li
-      className={styles.card}
+      className={classes.card}
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
     >

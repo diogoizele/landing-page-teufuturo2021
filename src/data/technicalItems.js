@@ -1,32 +1,32 @@
-import javascript from "../assets/img/logo-js.png";
-import html5 from "../assets/img/logo-html5.jpg";
-import css3 from "../assets/img/logo-css3.jpg";
-import react from "../assets/img/logo-reactjs.jpg";
+import javascript from "../assets/img/logo-js.webp";
+import html5 from "../assets/img/logo-html5.webp";
+import css3 from "../assets/img/logo-css3.webp";
+import react from "../assets/img/logo-reactjs.webp";
 
 const technicalItems = [
   {
     title: "Javascript",
     src: javascript,
     alt: "Logo do JavaScript",
-    text: "JS ou “JavaScript” é uma linguagem de programação não foi projetada para rodar em servidores, mas no navegador do usuário. Originalmente projetada para rodar no Netscape Navigator, ela tinha o propósito de oferecer aos desenvolvedores formas de tornar determinados processos de páginas web mais dinâmicos, tornando seu uso mais agradável. Um ano depois de seu lançamento, a Microsoft usou a linguagem para seu navegador, o que ajudou a consolidar a linguagem e torná-la uma das tecnologias mais importantes e utilizadas na internet.",
+    text: "JavaScript ou JS, é uma linguagem de programação de alto nível com tipagem dinâmica, orientação de objetos e também é a linguagem de programação mais popular no mundo, considerada fácil de aprender e é usada normalmente para desenvolver aplicativos web front-end e back-end.",
   },
   {
     title: "HTML5",
     src: html5,
     alt: "Logo do HTML5",
-    text: 'HyperText Markup Language” ou HTML é a linguagem padrão para documentos projetados para serem exibidos em um navegador da web. Pode ser auxiliado por tecnologias como o CSS e linguagens como o JavaScript. "Hypertext" se refere a links que conectam páginas da web umas às outras, dentro de um único site ou entre sites. Os links são um aspecto fundamental da web, ao enviar conteúdo para a Internet e vinculá-lo a páginas criadas por outras pessoas, você se torna um participante ativo da “World Wide Web” (Rede Mundial de Computadores).',
+    text: "HTML é a linguagem de marcação padrão para documentos exibidos em um navegador da web. Pode ser auxiliado por tecnologias como CSS e linguagens de script como JavaScript.",
   },
   {
     title: "CSS3",
     src: css3,
     alt: "Logo do CSS3",
-    text: "CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. Também pode criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas telas e assim por diante. O CSS usa uma sintaxe simples baseada em inglês com um conjunto de regras. O HTML não usa elementos de estilo, apenas a marcação da página.",
+    text: "O CSS é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação, como HTML.",
   },
   {
     title: "React",
     src: react,
     alt: "Logo do React",
-    text: "O React é a biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU ou UI). Ela oferece uma resposta para o usuário adicionar comandos usando um novo método de renderizar sites. Os seus componentes foram desenvolvidos pelo Facebook, e foi lançada em 2013 como uma ferramenta JavaScript de código aberto. Atualmente, ela está na frente das suas principais competidoras, a Angular e a Bootstrap, as duas bibliotecas JavaScript mais bem vendidas.",
+    text: "React é uma biblioteca JavaScript front-end de código aberto para a construção de interfaces de usuário ou componentes de IU e é mantido pelo Facebook e por uma comunidade de desenvolvedores individuais e empresas.",
   },
 ];
 

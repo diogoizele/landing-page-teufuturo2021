@@ -74,7 +74,6 @@
 .participant-info > div {
   display: flex;
   justify-content: space-evenly;
-
 }
 
 .participant-info > div:nth-child(2) {
@@ -104,9 +103,9 @@
   object-fit: cover;
 }
 
-.participant-info a > img {
-  height:  3rem;
-  
+.participant-info a :first-child {
+  font-size: 3rem;
+  color: #222;
 }
 
 .participant-info div h4 {
@@ -125,9 +124,8 @@
     height: 75%;
     width: 80%;
   }
- 
-.participant-info a > img {
-  height:  1.5rem;
-  
-}
+
+  .participant-info a > img {
+    height: 1.5rem;
+  }
 }

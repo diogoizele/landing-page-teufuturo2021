@@ -1,9 +1,9 @@
-import styles from "./CardsList.module.css";
+import classes from "./CardsList.module.css";
 import CardItem from "./CardItem";
 
 const CardsList = (props) => {
   return (
-    <div className={styles["card-list"]}>
+    <div className={classes["card-list"]}>
       <div>
         <img src={props.src} alt={props.alt} data-aos="fade-up" />
       </div>

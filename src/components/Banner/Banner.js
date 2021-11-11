@@ -1,12 +1,13 @@
-import styles from "./Banner.module.css";
+import { useState, useEffect } from "react";
+import classes from "./Banner.module.css";
 
-import logoTeuFuturo from "../../assets/svg/teufuturo.svg";
-import logoYaman from "../../assets/img/logo-yaman.png";
-import logoImed from "../../assets/img/logo-imed.png";
+import logoYaman from "../../assets/img/logo-yaman.webp";
+import logoImed from "../../assets/img/logo-imed.webp";
+import studentImage from "../../assets/img/student.webp";
 
 import BannerImageAnimation from "./BannerImageAnimation";
-import BannerLines from "./BannerLines";
-import { useState, useEffect } from "react";
+import BannerExplorer from "./BannerExplorer";
+import BannerWaves from "./BannerWaves";
 
 const Banner = (props) => {
   const [currentImage, setCurrentImage] = useState(false);
@@ -19,13 +20,8 @@ const Banner = (props) => {
   }, [currentImage]);
 
   return (
-    <section id={props.id} className={styles.banner}>
-      <div className={styles["banner-logo"]}>
-        <a href="#sobre">
-          <img src={logoTeuFuturo} alt="Logo do Teu Futuro" />
-        </a>
-      </div>
-      <BannerLines />
+    <section id={props.id} className={classes.banner}>
+      <BannerExplorer />
       {currentImage ? (
         <BannerImageAnimation
           src={logoYaman}
@@ -34,11 +30,18 @@ const Banner = (props) => {
       ) : (
         <BannerImageAnimation src={logoImed} link="https://www.imed.edu.br/" />
       )}
-      <div className={styles["banner-arrow"]}>
+      <a className={classes.button} href="#participar">
+        Participar
+      </a>
+      <div className={classes["banner-arrow"]}>
         <a href="#sobre">
           <i />
         </a>
       </div>
+      <div className={classes["banner-logo"]}>
+        <img src={studentImage} alt="Logo do Teu Futuro" />
+      </div>
+      <BannerWaves />
     </section>
   );
 };

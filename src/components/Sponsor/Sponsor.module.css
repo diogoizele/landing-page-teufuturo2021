@@ -28,7 +28,6 @@
   text-align: justify;
   width: 50%;
   padding: 0rem 1rem;
-
   display: flex;
   flex-direction: column;
 }
@@ -48,6 +47,7 @@
   text-decoration: none;
   color: #222;
 }
+
 .message a:hover {
   font-size: 3.5rem;
   color: #7b53ce;
@@ -57,6 +57,7 @@
   font-size: 2rem;
   font-weight: 300;
   text-align: center;
+  color: #5e5e5e;
 }
 
 .message h4 {
@@ -81,5 +82,9 @@
     object-fit: cover;
     border-radius: 3px;
     filter: grayscale(1);
+  }
+
+  .message {
+    margin-bottom: 6rem;
   }
 }

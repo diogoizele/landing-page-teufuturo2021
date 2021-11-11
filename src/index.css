@@ -8,11 +8,9 @@ html {
 
 body {
   overflow: hidden;
-  width: 100vw;
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -28,4 +26,8 @@ code {
 ::-webkit-scrollbar-thumb {
   border-radius: 4px;
   background-color: #6b40c98a;
+}
+
+.hide-mobile {
+  display: none;
 }

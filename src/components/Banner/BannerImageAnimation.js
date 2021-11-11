@@ -1,8 +1,8 @@
-import styles from "./BannerImageAnimation.module.css";
+import classes from "./BannerImageAnimation.module.css";
 
 const BannerImageAnimation = (props) => {
   return (
-    <div className={styles["banner-image"]}>
+    <div className={`${classes["banner-image"]} hide-mobile`}>
       <a href={props.link} target="_blank" rel="noreferrer">
         <img src={props.src} alt="Logo da Yaman" />
       </a>

@@ -1,8 +1,7 @@
 .squad-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center
 }
 
 .squad-header h3 {
@@ -10,7 +9,6 @@
   font-family: "Slackey", cursive;
   color: #ffcf1a;
   text-shadow: 2px 2px 2px black;
-
   transition: transform 0.3s;
 }
 
@@ -19,7 +17,7 @@
 }
 
 .squad-header p {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   color: #333;
 }
 

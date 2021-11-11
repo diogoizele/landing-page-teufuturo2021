@@ -1,26 +1,67 @@
 import { useState } from "react";
 import styles from "./Contact.module.css";
 
-import backpack from "../../assets/img/teufuturo-backpack.png";
+import backpack from "../../assets/img/teufuturo-backpack.webp";
 
 import Section from "../UI/Section";
 
 const Contact = (props) => {
   const [userName, setUserName] = useState("");
+  const [userNameIsValid, setUserNameIsValid] = useState(null);
+  const [email, setEmail] = useState("");
+  const [emailIsValid, setEmailIsValid] = useState(null);
+  const [phone, setPhone] = useState("");
+  const [phoneIsValid, setPhoneIsValid] = useState(null);
   const [submitMessage, setSubmitMessage] = useState(false);
 
   const submitFormHandler = (event) => {
     event.preventDefault();
 
-    if (userName) {
-      setSubmitMessage(true);
+    if (userName.trim() === "") {
+      setUserNameIsValid(false);
     }
 
-    setTimeout(() => setSubmitMessage(false), 3000);
+    if (!email.includes("@")) {
+      setEmailIsValid(false);
+    }
+
+    if (phone.trim() === "") {
+      setPhoneIsValid(false);
+    }
+
+    if (userName && email && phone) {
+      setSubmitMessage(true);
+      setUserNameIsValid(true);
+      setEmailIsValid(true);
+      setPhoneIsValid(true);
+
+      setTimeout(() => {
+        setSubmitMessage(false);
+        setUserName("");
+        setEmail("");
+        setPhone("");
+      }, 3000);
+    }
   };
 
   const changeNameHandler = (event) => {
     setUserName(event.target.value);
+    if (userName.trim() !== "") {
+      setUserNameIsValid(true);
+    }
+  };
+
+  const changeEmailHandler = (event) => {
+    if (email.includes("@")) {
+      setEmailIsValid(true);
+    }
+    setEmail(event.target.value);
+  };
+  const changePhoneHandler = (event) => {
+    setPhone(event.target.value);
+    if (phone.trim() !== "") {
+      setPhoneIsValid(true);
+    }
   };
 
   return (
@@ -33,25 +74,36 @@ const Contact = (props) => {
         <div data-aos="fade-up">
           <form onSubmit={submitFormHandler}>
             <h4>Preencha o formulário e entraremos em contato com você.</h4>
+            {userNameIsValid === false && (
+              <span>Adicione um valor para o nome</span>
+            )}
             <input
               type="text"
               placeholder="Nome completo"
               id="name"
               value={userName}
               onChange={changeNameHandler}
-              required="required"
+              className={`${userNameIsValid === false ? styles.invalid : ""}`}
             />
+            {emailIsValid === false && <span>Adicione um e-mail válido</span>}
             <input
               type="email"
-              placeholder="Email"
+              placeholder="E-mail"
               id="email"
-              required="required"
+              value={email}
+              onChange={changeEmailHandler}
+              className={`${emailIsValid === false ? styles.invalid : ""}`}
             />
+            {phoneIsValid === false && (
+              <span>Adicione um número de WhatsApp</span>
+            )}
             <input
               type="tel"
               placeholder="WhatsApp"
               id="phone"
-              required="required"
+              value={phone}
+              onChange={changePhoneHandler}
+              className={`${phoneIsValid === false ? styles.invalid : ""}`}
             />
             <button type="submit">Enviar</button>
             {submitMessage && <p>Obrigado por se inscrever {userName}!</p>}

@@ -2,8 +2,6 @@
   width: 90%;
   background-color: white;
   border-radius: 1rem;
-  box-shadow: 0 0 10px 1px rgb(32, 32, 32);
-
   display: flex;
   align-items: center;
   padding: 2rem;
@@ -69,6 +67,16 @@
   color: #222;
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+.contact .invalid {
+  border: 1px solid red;
+  background-color: rgb(255, 218, 211);
+}
+
+.contact span {
+  font-size: 0.8rem;
+  color: #ca0000;
 }
 
 @media screen and (max-width: 800px) {

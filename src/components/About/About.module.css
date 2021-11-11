@@ -1,22 +1,16 @@
 .info {
-  margin-top: 5rem;
-
   display: flex;
   align-items: center;
-
   justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: white;
 }
 
 .info div {
+  box-sizing: border-box;
   width: 50%;
   padding: 1rem;
-  box-sizing: border-box;
-
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  color: #424242;
 }
 
 .info img {
@@ -29,13 +23,10 @@
   font-size: 1.2rem;
   text-align: justify;
   font-weight: 400;
-  color: #424242;
 }
 
 .info h3 {
-  font-size: 1.5rem;
   font-size: 2rem;
-  color: #535353;
 }
 
 @media screen and (max-width: 800px) {

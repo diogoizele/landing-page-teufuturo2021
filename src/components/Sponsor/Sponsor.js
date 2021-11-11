@@ -1,14 +1,14 @@
-import styles from "./Sponsor.module.css";
+import classes from "./Sponsor.module.css";
 
-import yamanImage from "../../assets/img/yaman-company.jpg";
-import wadhwaniImage from "../../assets/img/wadhwani-company.jpg";
+import yamanImage from "../../assets/img/yaman-company.webp";
+import wadhwaniImage from "../../assets/img/wadhwani-company.webp";
 
 import Section from "../UI/Section";
 
 const Sponsor = (props) => {
   return (
     <Section id={props.id}>
-      <div className={styles.sponsor} data-aos="fade-right">
+      <div className={classes.sponsor} data-aos="fade-right">
         <div>
           <img src={yamanImage} alt="Empresa Yaman" />
         </div>
@@ -29,7 +29,7 @@ const Sponsor = (props) => {
         </div>
       </div>
 
-      <div className={styles.sponsor} data-aos="fade-left">
+      <div className={classes.sponsor} data-aos="fade-left">
         <div>
           <h3>Wadhwani</h3>
           <p>
@@ -52,7 +52,7 @@ const Sponsor = (props) => {
         </div>
       </div>
 
-      <div className={styles.message} data-aos="fade-up">
+      <div className={classes.message} data-aos="fade-up">
         <h5>Faça como a Yaman e a Wadhwani e</h5>
         <h4>
           Apoie

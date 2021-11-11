@@ -1,10 +1,14 @@
-import styles from "./Header.module.css";
+import classes from "./Header.module.css";
 
 import logoTeuFuturo from "../../assets/svg/teufuturo.svg";
+import GroupRoundedIcon from "@mui/icons-material/GroupRounded";
+import InfoIcon from "@mui/icons-material/Info";
+import SupportIcon from "@mui/icons-material/Support";
+import CategoryIcon from "@mui/icons-material/Category";
 
 const Header = (props) => {
   return (
-    <header className={styles.header}>
+    <header className={classes.header}>
       <nav>
         <div>
           <a href="#inicio">
@@ -12,10 +16,20 @@ const Header = (props) => {
           </a>
         </div>
         <div>
-          <a href="#sobre">Sobre</a>
-          <a href="#squad">Squad</a>
-          <a href="#apoie">Apoie</a>
-          <a href="#participar">Quero Participar</a>
+          <a href="#sobre">
+            Sobre
+            <InfoIcon className={classes.mobile} />
+          </a>
+          <a href="#squad">
+            Squad <GroupRoundedIcon className={classes.mobile} />
+          </a>
+          <a href="#apoie">
+            Apoie <SupportIcon className={classes.mobile} />
+          </a>
+          <a href="#participar">
+            Quero Participar
+            <CategoryIcon className={classes.mobile} />
+          </a>
         </div>
       </nav>
     </header>

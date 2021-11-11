@@ -1,17 +1,16 @@
-import styles from "./CardItem.module.css";
+import classes from "./CardItem.module.css";
 
 const CardItem = (props) => {
   return (
-    <li className={styles.item} data-aos="zoom-in">
-      <div className={styles["flip-box"]}>
-        <div className={styles["flip-box__front"]}>
+    <li className={classes.item} data-aos="zoom-in">
+      <div className={classes["flip-box"]}>
+        <div className={classes["flip-box__front"]}>
           <div>
             <img src={props.src} alt={props.alt} />
           </div>
-
           <label>{props.title}</label>
         </div>
-        <div className={styles["flip-box__back"]}>
+        <div className={classes["flip-box__back"]}>
           <p>{props.children}</p>
         </div>
       </div>

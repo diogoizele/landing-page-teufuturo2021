@@ -1,20 +1,20 @@
-import communication from "../assets/img/communication.jpg";
-import teamwork from "../assets/img/teamwork.jpg";
-import clientfocus from "../assets/img/solveproblems.jpg";
-import businessmindset from "../assets/img/business-mindset.jpg";
+import communication from "../assets/img/communication.webp";
+import teamwork from "../assets/img/teamwork.webp";
+import clientfocus from "../assets/img/solveproblems.webp";
+import businessmindset from "../assets/img/business-mindset.webp";
 
 const behavioralItems = [
   {
     title: "Comunicação",
     src: communication,
     alt: "Pessoas se Comunicando",
-    text: "A plataforma traz além da comunicação básica, um preparo amplo e de extrema importância baseado na comunicação no mercado de trabalho; mencionando pontos relevantes a serem aplicados diariamente e na área profissional. Habilidades e atitudes como recusar educadamente, conversas para tomada de decisões, comunicação verbal e escrita e negociações, são tratadas e possíveis de serem absorvidas por qualquer pessoa que esteja disposta a aprofundar e especializar seus conhecimentos.",
+    text: "A plataforma traz além da comunicação básica, um preparo amplo e de extrema importância baseado na comunicação no mercado de trabalho. Habilidades e atitudes como recusar educadamente, conversas para tomada de decisões, comunicação verbal e escrita e negociações, por isso o curso estuda e aprofunda os conhecimentos comunicativos do aluno.",
   },
   {
     title: "Trabalho em Equipe",
     src: teamwork,
     alt: "Mãos Sobrepostas",
-    text: "É indiscutível que no atual mundo em que vivemos, precisamos trabalhar em equipe, seja para desempenhar um trabalho bem feito, planejar um novo projeto, cumprir com cargas horárias exigidas, resolução de problemas, dentre outros. Sabendo da importância da convivência em grupo e da colaboração de todos os indivíduos presentes na situação, com um objeto comum, o curso Job Ready aborda esses e muitos outros assuntos que servem como conectivos para a vida profissional e crescimento da empresa, como equipe.",
+    text: "É indiscutível que no atual mundo em que vivemos Trabalhar em equipe é fundamental. Sabendo da importância da convivência em grupo e da colaboração de todos os indivíduos presentes na situação, com um objeto comum, o curso Job Ready aborda esses e muitos outros assuntos que servem como conectivos para a vida profissional e crescimento da empresa, como equipe.",
   },
   {
     title: "Foco no Cliente",

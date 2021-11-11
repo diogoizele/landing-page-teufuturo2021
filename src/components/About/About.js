@@ -1,8 +1,8 @@
-import styles from "./About.module.css";
+import classes from "./About.module.css";
 
-import programmingStudents from "../../assets/img/programming-students.jpg";
-import alura from "../../assets/img/logo-alura.png";
-import whadwany from "../../assets/img/logo-Whadwany.png";
+import programmingStudents from "../../assets/img/programming-students.webp";
+import alura from "../../assets/img/logo-alura.webp";
+import whadwany from "../../assets/img/logo-Whadwany.webp";
 
 import Section from "../UI/Section";
 import Outdoor from "./Outdoor";
@@ -14,17 +14,7 @@ import behavioralItems from "../../data/behavioralItems";
 const About = (props) => {
   return (
     <Section id={props.id}>
-      <Outdoor data-aos="fade-up">
-        <h2>Conheça o #TeuFuturo</h2>
-        <p>
-          O projeto visa dar aquele "empurrãozinho" em jovens interessados na
-          carreira d e ciências da computação, com
-          <strong> módulos comportamentais e técnicos</strong> que ajudarão
-          tanto o adolescente se sair bem em uma entrevista de emprego quanto
-          desenvolver aplicações modernas com as tecnologias da web.
-        </p>
-      </Outdoor>
-      <div className={styles.info}  data-aos="fade-right">
+      <div className={classes.info} data-aos="fade-right">
         <div>
           <img src={programmingStudents} alt="Estudantes de Programação" />
         </div>
@@ -42,7 +32,7 @@ const About = (props) => {
           </p>
         </div>
       </div>
-      <Outdoor  data-aos="fade-up">
+      <Outdoor data-aos="fade-up">
         <h3>Programa #TeuFuturo 2021</h3>
         <iframe
           width="560"

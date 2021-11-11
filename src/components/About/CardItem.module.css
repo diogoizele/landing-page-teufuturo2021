@@ -1,17 +1,16 @@
 .item {
-  list-style: none;
   width: 20rem;
   height: 23rem;
   box-shadow: 0 0 10px 1px rgb(126, 126, 126);
   margin: 1rem;
   border-radius: 1rem;
   overflow: hidden;
-
   perspective: 1000px;
 }
 
 .item p {
   margin: 0;
+  padding: 0 2rem;
 }
 
 .item div > div {
@@ -61,11 +60,9 @@
   box-sizing: border-box;
   height: 100%;
   padding: 1rem;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   text-align: justify;
   transform: rotateY(180deg);
   font-size: calc(100% + 1px);
