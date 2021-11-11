@@ -37,37 +37,37 @@
 }
 
 @keyframes animate1 {
-  0% {
+  from {
     background-position-x: 0;
   }
-  100% {
+  to {
     background-position-x: 1000px;
   }
 }
 
 @keyframes animate2 {
-  0% {
+  from {
     background-position-x: 0;
   }
-  100% {
+  to {
     background-position-x: 1000px;
   }
 }
 
 @keyframes animate3 {
-  0% {
+  from {
     background-position-x: 0;
   }
-  100% {
+  to {
     background-position-x: 1000px;
   }
 }
 
 @keyframes animate4 {
-  0% {
+  from {
     background-position-x: 0;
   }
-  100% {
+  to {
     background-position-x: 1000px;
   }
 }
